@@ -1,0 +1,118 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #007BFF;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+p {
+    color: #666;
+    line-height: 1.4;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+.serie-img {
+    width: 150px; /* Puedes ajustar este valor según tus preferencias */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-left: 10px; /* Espacio entre la imagen y el texto */
+}
+.horizontal-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.horizontal-list li {
+    margin-right: 20px; /* Espacio entre elementos, puedes ajustar según sea necesario */
+}
+.horizontal-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.horizontal-list li {
+    margin-right: 20px; /* Espacio entre elementos, puedes ajustar según sea necesario */
+    text-align: center;
+}
+
+.horizontal-list img {
+    width: 150px; /* Puedes ajustar este valor según tus preferencias */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.profile-img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 1%; /* Esto crea una imagen circular, puedes quitarlo si no lo necesitas */
+    margin: 20px auto;
+    display: block;
+}
